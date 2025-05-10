@@ -1,0 +1,10 @@
+
+.contenedor-lista-tareas {
+    height: 500px;
+}
+
+@media (min-width: 767px){
+    .contenedor {
+        width: 750px;
+    }
+}
