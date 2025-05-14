@@ -1,10 +1,15 @@
 
 .contenedor-lista-tareas {
     height: 500px;
+    text-align: center;
 }
 
 @media (min-width: 767px){
     .contenedor {
         width: 750px;
     }
+}
+
+li {
+    margin: 10px 0;
 }
