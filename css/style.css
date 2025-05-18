@@ -1,15 +1,33 @@
 
 .contenedor-lista-tareas {
-    height: 500px;
+    height: auto;
     text-align: center;
+    min-height: 300px;
 }
 
-@media (min-width: 767px){
-    .contenedor {
-        width: 750px;
-    }
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style-position: inside;
+    list-style-type: none;
+    padding: 0;
+    margin: 10px;
 }
 
 li {
     margin: 10px 0;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: green;
+    padding: 10px 0px;
+}
+@media (min-width: 767px){
+    .contenedor {
+        width: 750px;
+    }
+
+    li {
+        margin: 10px 50px;
+    }
 }
