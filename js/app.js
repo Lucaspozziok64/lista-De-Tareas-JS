@@ -7,7 +7,7 @@ const agregarTarea = (e) => {
     //necesito el ul padre para agregar un nuevo item hijo li
     const lista = document.querySelector('.list-group')
     //necesito agregar un li con el texto del input 
-    lista.innerHTML += `<li class="list-group-item bg-success text-white">${inputForm}</li>`
+    lista.innerHTML += `<li class="list-group-item bg-success text-white d-flex justify-content-evenly">${inputForm}<button class="botonEliminar"><i class="bi bi-trash3-fill"></i></button></li>`
     //limpiar el formulario
     formularioTarea.reset();
 }
