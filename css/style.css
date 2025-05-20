@@ -14,7 +14,7 @@ li {
     border-radius: 30px;
     background-color: red;
     color: white;
-    border: 1px solid black;
+    border: 1px solid white;
 }
 
 @media (min-width: 767px){
