@@ -33,13 +33,10 @@ git clone https://github.com/Lucaspozziok64/lista-De-Tareas-JS.git
 
 💻 Tecnologías utilizadas
 -
-JavaScript ES6+ (Módulos, Eventos DOM)
-
-HTML5 semántico
-
-CSS3 Flexbox/Grid
-
-Web Storage API (localStorage)
+- JavaScript ES6+ (Módulos, Eventos DOM)
+- HTML5 semántico
+- CSS3 Flexbox/Grid
+- Web Storage API (localStorage)
 
 👨‍💻 Autor
 - 
